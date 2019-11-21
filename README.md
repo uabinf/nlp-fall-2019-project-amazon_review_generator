@@ -18,14 +18,14 @@ Feng Zheng (feng1013), Jiawei Wang (jwang96)
     - [ ] RoBERTa -> Feng Zhang
 - [ ] project evaluation
   - [ ] discuss how to evaluate the work
-  - [Here](https://www.cs.brandeis.edu/~cs136a/CS136a_Slides/stent-columbia-EvaluationGeneration.pdf) provides several ways to evaluating text generators
+  - [Here](https://www.cs.brandeis.edu/~cs136a/CS136a_Slides/stent-columbia-EvaluationGeneration.pdf) provides several ways in evaluating text generators
     - [ ] Human judgements
     - [ ] Automatic evaluation metrics
     - [ ] maybe use Grammar Checker like [Grammarly](https://app.grammarly.com/)
 - [ ] project presentation
   - [ ] make poster
   - [ ] prepare for the presentation
-- [ ] delivery the work
+- [ ] deliver the work
 
 ## Usage
 TBA
