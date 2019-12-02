@@ -24,7 +24,7 @@ Feng Zheng (feng1013), Jiawei Wang (jwang96)
 - [x] project presentation
   - [x] make poster
   - [x] prepare for the presentation
-- [ ] deliver the work
+- [x] deliver the work
 
 ## Usage
 ### Requirements
