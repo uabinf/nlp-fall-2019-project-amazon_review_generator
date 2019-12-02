@@ -67,6 +67,10 @@ optional arguments:
 
 #### Demonstration of GPT-2 model
 see `GPT-2_Demo.ipynb`.
+
+#### Download Fine-tuned model
+Since our fine-tuned models are too large (400mb each), instead of uploading them to this repository we have to upload them on Google Drive. You can download [gpt_data.tar.gz](https://drive.google.com/file/d/1B_dQkPnJ7a8O5MI6ITwWk4vfs_qDULde/view?usp=sharing) if you need to run it yourself. After downloaded, you can place the `checkpoint` folder into your working directory.
+
 #### Possible Exceptions in `GPT-2_Demo.ipynb` (and how to solve it)
 In this notebook we demonstrated models fine-tuned two different datasets at a time. Since gpt2 only allows loading one model at each session, **restart your kernel is required** if you have already loaded one model and wants to load another one.
 
