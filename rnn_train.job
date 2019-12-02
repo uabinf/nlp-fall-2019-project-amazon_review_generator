@@ -1,0 +1,30 @@
+#!/bin/bash
+#
+#SBATCH --job-name=TextgenRNN
+#SBATCH --output=rnn.out
+#SBATCH --error=rnn.err
+#
+# Number of tasks needed for this job. Generally, used with MPI jobs
+#SBATCH --ntasks=1
+#SBATCH --partition=pascalnodes
+#SBATCH --gres=gpu:2
+#
+# Time format = HH:MM:SS, DD-HH:MM:SS
+#SBATCH --time=12:00:00
+#
+# Number of CPUs allocated to each task. 
+#SBATCH --cpus-per-task=4
+#
+# Mimimum memory required per allocated  CPU  in  MegaBytes. 
+#SBATCH --mem-per-cpu=16384
+#
+# Send mail to the email address when the job fails
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=jwang96@uab.edu
+
+#Set your environment here
+module load cuda92/toolkit/9.2.88
+module load CUDA/9.2.88-GCC-7.3.0-2.30
+#Run your commands here
+#srun --pty /bin/bash
+./rnn_train.sh
